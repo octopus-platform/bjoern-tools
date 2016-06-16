@@ -6,7 +6,6 @@ class RadareImporter(OctopusPlugin):
         super().__init__(executor)
         self._pluginname = "radareimporter.jar"
         self._classname = "bjoern.plugins.radareimporter.RadareImporterPlugin"
-        self._settings = {}
 
     def __setattr__(self, key, value):
         if key == "project":
