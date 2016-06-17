@@ -11,5 +11,5 @@ setup(
     url='https://github.com/octopus-platform/bjoern-tools',
     license='LGPLv3',
     scripts=['scripts/bjoern-import', 'scripts/bjoern-instructionlinker', 'scripts/bjoern-functionexport',
-             'scripts/bjoern-alocs']
+             'scripts/bjoern-alocs', 'scripts/bjoern-vsa']
 )
