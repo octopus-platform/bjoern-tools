@@ -6,7 +6,6 @@ class InstructionLinker(OctopusPlugin):
         super().__init__(executor)
         self._pluginname = "instructionlinker.jar"
         self._classname = "bjoern.plugins.instructionlinker.InstructionLinkerPlugin"
-        self._settings = {}
 
     def __setattr__(self, key, value):
         if key == "project":

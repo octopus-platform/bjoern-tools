@@ -6,7 +6,6 @@ class FunctionExporter(OctopusPlugin):
         super().__init__(executor)
         self._pluginname = "functionexport.jar"
         self._classname = "bjoern.plugins.functionexporter.FunctionExportPlugin"
-        self._settings = {}
 
     def __setattr__(self, key, value):
         if key == "project":
