@@ -3,7 +3,7 @@ import sys
 
 from octopus.shell.octopus_console import OctopusInteractiveConsole
 from octopus.shell.onlinehelp.online_help import OnlineHelp
-from bjoern.shell.config.bjosh_config import config
+from bjoern.shell.config.config import config
 from octopus.shell.octopus_shell_utils import reload as _reload
 
 
